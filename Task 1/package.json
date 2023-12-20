@@ -1,0 +1,19 @@
+{
+ "name": "task-1",
+ "version": "1.0.0",
+ "description": "",
+ "main": "index.js",
+ "type": "module",
+ "scripts": {
+  "yeet": "node index.js",
+  "test": "node --experimental-vm-modules node_modules/.bin/jest --watchAll",
+  "test:coverage": "node --experimental-vm-modules node_modules/.bin/jest --coverage",
+  "dev": "nodemon index.js"
+ },
+ "keywords": [],
+ "author": "Milan <tomasovic@gmail.com>",
+ "license": "ISC",
+ "dependencies": {
+  "jest": "^29.7.0"
+ }
+}
